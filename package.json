@@ -1,12 +1,26 @@
 {
-  "name": "useeasy-lib",
+  "name": "useeasy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "files": [
+    "src",
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hooks",
+    "async",
+    "fetch",
+    "api",
+    "auto-fetch",
+    "react-hooks"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
