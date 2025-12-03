@@ -22,7 +22,7 @@ No boilerplate. No complicated setups. Just clean and easy code.
 (After publishing to npm)
 
 ```bash
-npm install useeasy
+npm install @shoebcodes/useeasy
 ```
 
 ---
