@@ -1,8 +1,27 @@
-# 🚀 useEasy
+# 🚀 useEasy  
 ### Simple, lightweight React hooks for async functions and API requests.
+
+![npm version](https://img.shields.io/npm/v/%40shoebcodes%2Fuseeasy?color=blue&label=npm%20version)
+![downloads](https://img.shields.io/npm/dw/%40shoebcodes%2Fuseeasy?color=brightgreen&label=weekly%20downloads)
+![license](https://img.shields.io/npm/l/%40shoebcodes%2Fuseeasy?color=yellow&label=license)
 
 `useEasy` is a tiny React utility library that makes async logic effortless.  
 No boilerplate. No complicated setups. Just clean and easy code.
+
+---
+
+# 🎥 Demo (GIF Examples)
+
+### 🔄 useEasyFetch — API fetch with auto state handling  
+![useEasyFetch Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyFetch.gif)
+
+### ⚡ useEasyAsync — Run async logic with zero boilerplate  
+![useEasyAsync Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyAsync.gif)
+
+### 🔁 useEasyAutoFetch — Auto refresh API every X seconds  
+![useEasyAutoFetch Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyAutoFetch.gif)
+
+> 💡 Place these `.gif` files in a folder named `demo/` inside your GitHub repo.
 
 ---
 
@@ -19,7 +38,6 @@ No boilerplate. No complicated setups. Just clean and easy code.
 ---
 
 ## 📦 Installation
-
 ```bash
 npm install @shoebcodes/useeasy
 ```
@@ -100,9 +118,9 @@ import { useEasyAutoFetch } from "@shoebcodes/useeasy";
 
 function LiveStats() {
   const { data, loading } = useEasyAutoFetch("/api/stats", {
-    refresh: 3000, // auto refetch every 3 seconds
-    retry: 2,      // retry twice on failure
-    deps: []       // optional dependency-based refetch
+    refresh: 3000,
+    retry: 2,
+    deps: []
   });
 
   return <pre>{JSON.stringify(data, null, 2)}</pre>;
