@@ -7,7 +7,7 @@ No boilerplate. No complicated setups. Just clean and easy code.
 ---
 
 ## ✨ Features
-- 🔹 Handle async state (loading, error, data) in one line  
+- 🔹 Handle async state (`loading`, `error`, `data`) in one line  
 - 🔹 Simplified API fetching  
 - 🔹 Auto-refresh APIs on intervals  
 - 🔹 Retry logic on failure  
@@ -19,7 +19,6 @@ No boilerplate. No complicated setups. Just clean and easy code.
 ---
 
 ## 📦 Installation
-(After publishing to npm)
 
 ```bash
 npm install @shoebcodes/useeasy
@@ -33,14 +32,14 @@ npm install @shoebcodes/useeasy
 
 ## 1️⃣ useEasyAsync(asyncFn, deps?)
 Run **any async function** and automatically manage:
-- loading  
-- error  
-- data  
-- run()
+- `loading`  
+- `error`  
+- `data`  
+- `run()`  
 
 ### Example
-```js
-import { useEasyAsync } from "useeasy";
+```jsx
+import { useEasyAsync } from "@shoebcodes/useeasy";
 
 function Component() {
   const { data, loading, error, run } = useEasyAsync(() =>
@@ -61,11 +60,11 @@ function Component() {
 ---
 
 ## 2️⃣ useEasyFetch(url, options?)
-A cleaner wrapper around fetch() with automatic state handling.
+A cleaner wrapper around `fetch()` with automatic state handling.
 
 ### Example
-```js
-import { useEasyFetch } from "useeasy";
+```jsx
+import { useEasyFetch } from "@shoebcodes/useeasy";
 
 function Users() {
   const { data, loading, error, refetch } = useEasyFetch("/api/users");
@@ -96,8 +95,8 @@ useEasyFetch("/api/login", {
 Automatically refetch APIs on intervals or when dependencies change.
 
 ### Example
-```js
-import { useEasyAutoFetch } from "useeasy";
+```jsx
+import { useEasyAutoFetch } from "@shoebcodes/useeasy";
 
 function LiveStats() {
   const { data, loading } = useEasyAutoFetch("/api/stats", {
