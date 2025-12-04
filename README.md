@@ -10,21 +10,6 @@ No boilerplate. No complicated setups. Just clean and easy code.
 
 ---
 
-# 🎥 Demo (GIF Examples)
-
-### 🔄 useEasyFetch — API fetch with auto state handling  
-![useEasyFetch Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyFetch.gif)
-
-### ⚡ useEasyAsync — Run async logic with zero boilerplate  
-![useEasyAsync Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyAsync.gif)
-
-### 🔁 useEasyAutoFetch — Auto refresh API every X seconds  
-![useEasyAutoFetch Demo](https://raw.githubusercontent.com/Mohammad-Shoeb-Faizan/useeasy/main/demo/useEasyAutoFetch.gif)
-
-> 💡 Place these `.gif` files in a folder named `demo/` inside your GitHub repo.
-
----
-
 ## ✨ Features
 - 🔹 Handle async state (`loading`, `error`, `data`) in one line  
 - 🔹 Simplified API fetching  
