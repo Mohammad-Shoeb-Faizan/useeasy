@@ -156,3 +156,14 @@ PRs welcome after stable release.
 
 # 📄 License
 MIT License — free for personal and commercial use.
+
+---
+
+## ❤️ Support the Project
+
+If `useEasy` saved you time, helped your code, or made your life easier,  
+consider supporting my open-source work:
+
+👉 **https://razorpay.me/@shoebfaizanmohammad**
+
+Every contribution — even ₹20 — motivates me to build more tools for developers.  
