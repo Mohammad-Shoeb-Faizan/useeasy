@@ -22,7 +22,7 @@
     "react-hooks"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^19.2.1"
   }
