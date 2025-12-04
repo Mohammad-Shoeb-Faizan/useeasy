@@ -3,7 +3,7 @@
 
 ![npm version](https://img.shields.io/npm/v/%40shoebcodes%2Fuseeasy?color=blue&label=npm%20version)
 ![downloads](https://img.shields.io/npm/dw/%40shoebcodes%2Fuseeasy?color=brightgreen&label=weekly%20downloads)
-![license](https://img.shields.io/npm/l/%40shoebcodes%2Fuseeasy?color=yellow&label=license)
+![license](https://img.shields.io/npm/l/%40shoebcodes%2Fuseeasy?color=yellow&label=license&refresh=1)
 [![Support](https://img.shields.io/badge/Support-Donate-blue)](https://razorpay.me/@shoebfaizanmohammad)
 
 
