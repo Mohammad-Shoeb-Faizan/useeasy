@@ -4,6 +4,8 @@
 ![npm version](https://img.shields.io/npm/v/%40shoebcodes%2Fuseeasy?color=blue&label=npm%20version)
 ![downloads](https://img.shields.io/npm/dw/%40shoebcodes%2Fuseeasy?color=brightgreen&label=weekly%20downloads)
 ![license](https://img.shields.io/npm/l/%40shoebcodes%2Fuseeasy?color=yellow&label=license)
+[![Support](https://img.shields.io/badge/Support-Donate-blue)](https://razorpay.me/@shoebfaizanmohammad)
+
 
 `useEasy` is a tiny React utility library that makes async logic effortless.  
 No boilerplate. No complicated setups. Just clean and easy code.
